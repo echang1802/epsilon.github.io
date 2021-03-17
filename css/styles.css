@@ -10381,7 +10381,7 @@ body {
 }
 
 .about-section {
-  padding-top: 10rem;
+  padding-top: 5rem;
   /*background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);*/
   background: black
 }
@@ -10390,7 +10390,7 @@ body {
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 3rem 0;
 }
 .projects-section .featured-text {
   padding: 2rem;
@@ -10474,4 +10474,8 @@ body {
 
 .footer {
   padding: 5rem 0;
+}
+
+.about_div {
+  height: 100%
 }
