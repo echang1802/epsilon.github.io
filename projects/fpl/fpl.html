@@ -1,0 +1,28 @@
+---
+layout: default
+title: "Epsilon DL - FPL"
+project_title: "FANTASY PREMIER LEAGUE"
+project_description: "I have played the FPL for over 5 seasons, each decision were more passionate than logical, now I'm changing this, using the power of data."
+---
+<!-- Core theme CSS (includes Bootstrap)-->
+<link href="{{ 'css/fpl_masthead.css' | relative_url }}" rel="stylesheet" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NK02K5SZ2M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NK02K5SZ2M');
+</script>
+
+<section>
+  <ul>
+    {% for post in site.posts %}
+      <li>
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        {{ post.excerpt }}
+      </li>
+    {% endfor %}
+  </ul>
+</section>
