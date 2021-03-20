@@ -4,11 +4,8 @@ title:  "FPL API - Matchweek Stats Dashboard"
 author: "Eloy Chang"
 date:   2021-03-17
 categories: jekyll update
-project_title: "FANTASY PREMIER LEAGUE"
-project_description: "I have played the FPL for over 5 seasons, each decision were more passionate than logical, now I'm changing this, using the power of data."
+project_title: "fpl"
 ---
-<!-- Core theme CSS (includes Bootstrap)-->
-<link href="{{ 'css/fpl_masthead.css' | relative_url }}" rel="stylesheet" />
 
 ## Introduction to FPL
 
@@ -131,3 +128,6 @@ Finally we use Tableau Public to make our dashboard, here is the results:
 <body>
 <div class='tableauPlaceholder' id='viz1616257006579' style='position: relative'><noscript><a href='https:&#47;&#47;bit.ly&#47;3liI6YB'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fa&#47;FantasyPremierLeague_16157556653850&#47;MatchweekStats&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='FantasyPremierLeague_16157556653850&#47;MatchweekStats' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fa&#47;FantasyPremierLeague_16157556653850&#47;MatchweekStats&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='es' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1616257006579');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1024px';vizElement.style.height='795px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1024px';vizElement.style.height='795px';} else { vizElement.style.width='100%';vizElement.style.height='2177px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 </body>
+
+<!-- Core theme CSS (includes Bootstrap)-->
+<link href="{{ 'css/fpl_masthead.css' | relative_url }}" rel="stylesheet" />
