@@ -5,19 +5,9 @@ author: "Eloy Chang"
 date:   2021-03-17
 categories: jekyll update
 project_title: "fpl"
+excerpt: "When I discover the API, bla bla bla.... From matter"
+path_image: <img class="header_post_image" src='../assets/img/logo epsilon resp.jpg' alt="" />
 ---
-
-## Introduction to FPL
-
-The Fantasy Premier League (FPL) is a very popular game, our job, as players, is to build a team with Premier League teams players, filling all position, goalkeepers, defense, midfielders and forwards, and even the bench, all with a starting budget of £100, other rules apply as, no more of 3 players from the same team, and we need a specific number of player of each position.
-
-Previous to each matchweek, we may make a transfer, if we want to make more than one we will suffer a points penalty. We also need to select the formation and which player will play and which will be benched, also the captain (who gets double points).
-
-Then, with each game the player gets points, based on what they accomplished, like goals, assists, clean sheets, etc. Finally we sum all points our team makes.
-It’s an easy game, but is really fun and addictive, and of course, there are a lot of things we can use to optimize our score using data.
-Recently I discovered the official API of the game, with a lot of very interesting data in real time.
-
-## FPL API
 
 I used python to extract and process the data, in this article I will just extract, but later I’ll post some nice projects I have in mind.
 

@@ -1,0 +1,37 @@
+---
+layout: main
+title: "Epsilon DL - MTG"
+project_title: "MAGIC THE GATHERING"
+project_description: "One of my favorites cards games since my time at the university, now I'm playing Arena, the digital version of the game."
+---
+<!-- Core theme CSS (includes Bootstrap)-->
+<link href="{{ 'css/mtg_masthead.css' | relative_url }}" rel="stylesheet" />
+
+<!-- Post List-->
+<section class="projects-description" id="introduction">
+  <h1 align="center">Magic The Gathering - Posts list</h1>
+  <div class="container_post">
+      <!-- Featured Project Row-->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+            <p class="text-black-50 mb-0"></p><br>
+            <p class="text-black-50 mb-0"></p><br>
+            <p class="text-black-50 mb-0"></p><br>
+            <p class="text-black-50 mb-0"></p><br>
+        </div>
+  <div class="container">
+      <!-- Featured Project Row-->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+              <div class="featured-text text-center text-lg-left">
+                  <ul>
+                    {% for post in site.posts %}
+                      {% if post.project_title == "mtg" %}
+                      <li>
+                        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                        <p class="text-black-50 mb-0">{{ post.excerpt }}</p>
+                      </li>
+                      {% endif %}
+                    {% endfor %}
+                  </ul>
+              </div>
+        </div>
+</section>
