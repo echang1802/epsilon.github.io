@@ -2,8 +2,7 @@
 layout: post
 title:  "MTG - Winning Rate"
 author: "Eloy Chang"
-date:   2021-03-26
-categories: jekyll update
+categories: markdown
 project_title: "mtg"
 excerpt: "I wanted to know how was my winning rate on ranked matches, and if I have some weakness again a specific color."
 path_image: <img class="header_post_image" src='../assets/img/magic-header-post.png' alt="" />
@@ -58,9 +57,9 @@ Finally the average game takes 6 turns, however, this result is biased because I
 <div class="row align-items-center no-gutters mb-4 mb-lg-5">
       <div class="featured-text text-center text-lg-left">
         <br>
-        <p class="text-black-50 mb-0"><a href="{{ 'mtg.html#masthead' | relative_url }}">Back to MTG project main page</a></p>
+        <p class="text-black-50 mb-0"><a href="{{ '../mtg.html#masthead' | replace: '..', site.url }}">Back to MTG project main page</a></p>
       </div>
 </div>
 
 <!-- Core theme CSS (includes Bootstrap)-->
-<link href="{{ 'assests/css/mtg_masthead.scss' | relative_url }}" rel="stylesheet" />
+<link href="{{ '../assets/css/mtg_masthead.css' | replace: '..', site.url }}" rel="stylesheet" />

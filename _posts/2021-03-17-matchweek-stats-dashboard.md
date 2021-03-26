@@ -2,8 +2,7 @@
 layout: post
 title:  "FPL API - Matchweek Stats Dashboard"
 author: "Eloy Chang"
-date:   2021-03-17
-categories: jekyll update
+categories: markdown
 project_title: "fpl"
 excerpt: "I started to ask myself how to improve my game decisions, then discovered the FPL API while investigating , now lets see what I can do."
 path_image: <img class="header_post_image" src='../assets/img/fpl-header-post.png' alt="" />
@@ -126,10 +125,10 @@ Finally we use Tableau Public to make our dashboard, here is the results:
 <div class="row align-items-center no-gutters mb-4 mb-lg-5">
       <div class="featured-text text-center text-lg-left">
         <br>
-        <p class="text-black-50 mb-0"><a href="{{ 'fpl.html#masthead' | relative_url }}">Back to FPL project main page</a></p>
+        <p class="text-black-50 mb-0"><a href="{{ '../fpl.html#masthead' | replace: '..', site.url }}">Back to FPL project main page</a></p>
       </div>
 </div>
 
 
 <!-- Core theme CSS (includes Bootstrap)-->
-<link href="{{ '/assets/css/fpl_masthead.scss' | relative_url }}" rel="stylesheet" />
+<link href="{{ '../assets/css/fpl_masthead.css' | replace: '..', site.url }}" rel="stylesheet" />
