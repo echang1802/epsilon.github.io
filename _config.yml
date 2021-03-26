@@ -22,7 +22,7 @@ title: Epsilon Data Labs
 email: eloy.chang.182@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A home for data, a world of science. This is data science.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/epsilon.github.io" # the subpath of your site, e.g. /blog
 url: "https://echang1802.github.io/epsilon.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  echang1802
 
