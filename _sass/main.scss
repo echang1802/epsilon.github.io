@@ -10400,3 +10400,13 @@ body {
 .about_div {
   height: 100%
 }
+
+.header_post_image {
+  width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+  .header_post_image{
+    padding-top: 88px;
+  }
+}
