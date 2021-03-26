@@ -132,4 +132,4 @@ Finally we use Tableau Public to make our dashboard, here is the results:
 
 
 <!-- Core theme CSS (includes Bootstrap)-->
-<link href="{{ 'css/fpl_masthead.css' | relative_url }}" rel="stylesheet" />
+<link href="{{ '/assets/css/fpl_masthead.scss' | relative_url }}" rel="stylesheet" />

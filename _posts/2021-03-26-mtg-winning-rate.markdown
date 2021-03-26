@@ -63,4 +63,4 @@ Finally the average game takes 6 turns, however, this result is biased because I
 </div>
 
 <!-- Core theme CSS (includes Bootstrap)-->
-<link href="{{ 'css/mtg_masthead.css' | relative_url }}" rel="stylesheet" />
+<link href="{{ 'assests/css/mtg_masthead.scss' | relative_url }}" rel="stylesheet" />
