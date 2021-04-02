@@ -203,6 +203,7 @@ FOR | Calvert-Lewin | 17.9
 FOR | Kane | 16.5
 FOR | Brewster | 6
 
+
 The transfer suggestion was:
 
 * **Sell**: Mohamed Salah
