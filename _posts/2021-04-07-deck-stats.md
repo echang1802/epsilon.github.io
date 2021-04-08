@@ -4,7 +4,7 @@ title:  "Deck Stats"
 author: "Eloy Chang"
 categories: markdown
 project_title: "mtg"
-excerpt: "A brief look into the season performance of all players and teams"
+excerpt: "How many lands should I put on my deck? This and other basic questions are answered here to help in MTG deck building"
 path_image: <img class="header_post_image" src='../assets/img/magic-header-post.png' alt="" />
 ---
 
@@ -96,7 +96,7 @@ def estimate_lands_in_fist_hand_by_color(deck, simulations = 10000):
 
 The results were:
 
-     | W0 | W1 | W2 | W3 | W4 | W5 | W6 | W7
+  B/W  | W0 | W1 | W2 | W3 | W4 | W5 | W6 | W7
 -----|----|----|----|----|----|----|----| -----
 B0 | 3,61% | 11,7% | 13.22% | 7,78% | 2,74% | 0,58% | 0,04% | 0%
 B1 | 5,68% | 13,99% | 13,51% | 6,13% | 1,47% | 0,16% | 0,01% | 0%
