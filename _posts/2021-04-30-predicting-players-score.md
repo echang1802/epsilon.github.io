@@ -56,14 +56,14 @@ In the case of the aggregations of the last 3 matches and the season the sum of 
 Before training the features (variables) were explored to find some irregularities or interesting insights.
 The first thing was look for missing values, as we expected, the info for all player that do not played the last gameweek do not have info of it (variables with the lm_ prefix), but also are some player that do not had have played games at home or away (very few of it) or of some difficult, being the higher difficult the most common to find this players.
 
-![Missing Values](https://drive.google.com/file/d/1dHhPe1qAXKcTeUbxeKNpcilftH0qBkRi/view?usp=sharing)
+![Missing Values]({{ '../assets/img/fpl_predicting_missing_values.PNG' | replace: '..', site.url }})
 
 Given that the variables are sums of events made by the players, substituting the missing values by 0 seems to be a good idea.
 
 Another important thing to look at is the distribution of the target variable,but it is likely to concentrate all values in 0, because most of the players in the database do not play, they are 687 total players, but only 20 teams, and just 11 player of each team start the games with a maximum of 3 changes, this means 14 player of each play, 14 players * 20 teams are 280 players are the normal quantity of players that may have points, but inclusive if a player has some minutos it can even have 0 points, by the other side, the most common total point gained by all players by gameweek is 1 and 2 points.
 
-![Players points distribution](https://drive.google.com/file/d/1Vig669o5koZEsDBF06vyvgFO1WpcQXCN/view?usp=sharing)
-![Players points histogram](https://drive.google.com/file/d/1-p2o_Grroom-IpJgdCEsVoem_tIdzZXh/view?usp=sharing)
+![Players points distribution]({{ '../assets/img/fpl_predicting_players_point_distribution.PNG' | replace: '..', site.url }})
+![Players points histogram]({{ '../assets/img/fpl_predicting_players_point_hist.PNG' | replace: '..', site.url }})
 
 This may affect the model performance because what we really want to predict is which players will obtain more points, so, to force the model to take more into account this players we duplicate all players that have points.
 
@@ -85,8 +85,8 @@ In general the weighted MSE in the test gameweek was of 0.15 points which is a g
 
 The things to improve is that the model is not too accurate with the players that scored a lot of points which are, actually, the players that really matter to add this model to my suggested players transfers module, still, it had some good performances.
 
-![Validation heatmap](https://drive.google.com/file/d/1dr3-4MSLOSQEcb6_7rT6v78sprtX_Rjf/view?usp=sharing)
-![Validation heatmap - Players without points](https://drive.google.com/file/d/11PUjIYnirNnZZYFOiiykch6rPwyEXxaa/view?usp=sharing)
+![Validation heatmap]({{ '../assets/img/fpl_predicting_validation_heatmap.PNG' | replace: '..', site.url }})
+![Validation heatmap - Players without points]({{ '../assets/img/fpl_predicting_validation_heatmap_players_with_points.PNG' | replace: '..', site.url }})
 
 <div class="row align-items-center no-gutters mb-4 mb-lg-5">
       <div class="featured-text text-center text-lg-left">
