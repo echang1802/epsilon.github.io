@@ -37,6 +37,8 @@ Finally I run the simulation for each period, ending it when the number of new u
 
 In the test, the critical mass was successfully reached at the 291 period with a total of 15.843 users.
 
+Checkout some results and the source code on my [github account](https://github.com/echang1802/platform_analysis)
+
 ![new users by source]({{ '../assets/img/platform_analysis_new_users_by_source.PNG' | replace: '..', site.url }})
 ![new users by source last period]({{ '../assets/img/platform_analysis_new_users_by_source_last_periods.PNG' | replace: '..', site.url }})
 ![total users by side]({{ '../assets/img/platform_analysis_total_users_by_side.PNG' | replace: '..', site.url }})
