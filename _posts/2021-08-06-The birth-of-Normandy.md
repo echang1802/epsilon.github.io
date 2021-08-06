@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Normandy"
+title:  "The birth of Normandy"
 author: "Eloy Chang"
 categories: markdown
 project_title: "random"
@@ -37,13 +37,13 @@ So, _Normandy_ let you:
 _Normandy_ is available on pip so, you may install it with just:
 
 ```
-pip install _Normandy_
+pip install normandy
 ```
 
 Once installed use the create project command to create the basic structure of a _Normandy_ project
 
 ```
-_Normandy_ --create-project -project-path your/project/path
+normandy --create-project -project-path your/project/path
 ```
 
 This will also create a skeleton of the configuration file named `pipeline_conf.yml` inside the **pipeline** folder, which should looks like this:
@@ -114,7 +114,7 @@ You may define any other function or import any other library needed but this fu
 Finally you may run your data flows with the run-pipeline command:
 
 ```
-_Normandy_ --run-pipeline -tags my_tag -tags sr2 -env prod
+normandy --run-pipeline -tags my_tag -tags sr2 -env prod
 ```
 
 I hope this could be a useful tool, and I would really appreciate every comment and suggestions to make this better.
