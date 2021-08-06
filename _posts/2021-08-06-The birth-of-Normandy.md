@@ -8,8 +8,6 @@ excerpt: "My first python package! A framework for data pipelines."
 path_image: <img class="header_post_image" src='../assets/img/logo epsilon resp.jpg' alt="" />
 ---
 
-## The birth of _Normandy_
-
 In several projects I have worked on, I has seen a common issue, which is a need of a  standardized way of coding for all the team, if how all a team members work is similar, it would make it simple for debugging, projects rotation and faster developing, clean code guidelines help in this but is not a complete solution.
 
 This motivates me to create a framework for data pipelines, giving a fixed structure but still, enough flexibility to the team members. Also, building a package is something that always has intrigued me, and wanted to do, so _Normandy_ was born.
